@@ -1,4 +1,8 @@
 package pl.edu.vistula.firstrestspring.product.support.exception;
 
-public class ProductNotFoundException {
+public class ProductNotFoundException extends RuntimeException {
+
+    public ProductNotFoundException(Long id) {
+        super("Product with id " + id + " not found");
+    }
 }
