@@ -46,6 +46,14 @@ src/main/java/pl/edu/vistula/firstrestspring
              └── ErrorMessageResponse.java
 ```
 
+The project follows a layered architecture:
+
+- **Controller** – handles HTTP requests
+- **Service** – contains business logic
+- **Repository** – stores data in memory
+- **DTO** – used for request and response
+- **Exception handling** – implemented with `@ControllerAdvice`
+
 API Endpoints
 Create product
 
@@ -105,6 +113,14 @@ Product successfully retrieved by ID.
 Testing
 
 The API was tested using PowerShell with Invoke-RestMethod and curl.
+
+
+## How to test
+
+1. Run the application
+2. Send POST request to create a product
+3. Send GET request to retrieve the product
+
 
 ## Screenshots
 
