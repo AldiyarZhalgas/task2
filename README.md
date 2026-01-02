@@ -106,7 +106,17 @@ Testing
 
 The API was tested using PowerShell with Invoke-RestMethod and curl.
 
+### Application startup
+![Application start](screenshots/01-run-application.png)
+
+### POST request
+![POST product](screenshots/02-post-product.png)
+
+### GET request
+![GET product](screenshots/03-get-product.png)
+
 Author
 
 Student of Vistula University
 Aldiyar Zhalgas 73259
+
