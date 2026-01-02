@@ -97,18 +97,7 @@ Response:
 }
 ```
 Status: 404 Not Found
-Screenshots
-Application startup
 
-The application successfully starts on port 8080.
-
-Create product (POST request)
-
-Product creation tested using PowerShell.
-
-Get product by id (GET request)
-
-Product successfully retrieved by ID.
 
 Testing
 
