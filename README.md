@@ -108,24 +108,25 @@ The API was tested using PowerShell with Invoke-RestMethod and curl.
 
 ## Screenshots
 
-### Application startup
-The application is successfully started and running on port 8080.
+### 🚀 Application startup
+The console shows that the application started successfully on port 8080.
 
 ![Application start](screenshots/01-run-application.png)
 
 ---
 
-### Create product (POST request)
-A product is created using a POST request with JSON payload.
+### ➕ Create product (POST)
+Shows executing a POST request in PowerShell to create a new product.
 
 ![POST product](screenshots/02-post-product.png)
 
 ---
 
-### Get product by id (GET request)
-The created product is successfully retrieved using its identifier.
+### 🔍 Get product by id (GET)
+Shows executing a GET request in PowerShell to retrieve a product by id.
 
 ![GET product](screenshots/03-get-product.png)
+
 
 Author
 
